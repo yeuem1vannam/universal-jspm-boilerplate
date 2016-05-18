@@ -1,0 +1,5 @@
+.git
+jspm_packages
+node_modules
+npm-debug.log
+public
