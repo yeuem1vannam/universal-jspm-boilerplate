@@ -3,6 +3,7 @@
 ```bash
 npm install -g jspm@beta
 npm install jspm@beta
+npm install
 jspm install
 ```
 Install `babel-types`
