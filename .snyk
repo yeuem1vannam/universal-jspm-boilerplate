@@ -1,0 +1,39 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - chokidar-socket-emitter > socket.io > debug:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > socket.io-adapter > debug:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > socket.io-client > debug:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > socket.io-parser > debug:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > engine.io > debug:
+        patched: '2019-05-17T08:08:34.870Z'
+  'npm:ms:20170412':
+    - chokidar-socket-emitter > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > engine.io > debug > ms:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > socket.io-adapter > debug > ms:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > socket.io-client > debug > ms:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > socket.io-parser > debug > ms:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2019-05-17T08:08:34.870Z'
+    - chokidar-socket-emitter > socket.io > debug > ms:
+        patched: '2019-05-17T08:08:34.870Z'
