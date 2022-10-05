@@ -9,11 +9,14 @@
     "postinstall": "jspm install",
     "bundle": "jspm bundle app/index.js public/bundle.js -wid --config jspm.build.json",
     "server": "node server",
-    "start": "npm run server & npm run bundle"
+    "start": "npm run server & npm run bundle",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "http-server": "^0.9.0",
-    "chokidar-socket-emitter": "^0.5.2"
+    "http-server": "^0.13.0",
+    "chokidar-socket-emitter": "^0.5.2",
+    "@snyk/protect": "latest"
   },
   "jspm": {
     "name": "app",
@@ -88,5 +91,6 @@
         ]
       }
     }
-  }
+  },
+  "snyk": true
 }
